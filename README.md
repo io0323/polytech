@@ -8,11 +8,16 @@
 polytech/
 ├── docs/                           # 要件定義・アーキテクチャ・回路設計・開発ログ
 ├── 01_fundamentals/
-│   ├── c-language/
+│   ├── c-language（C言語）/
 │   │   ├── 01_control_functions/   # 制御文と関数
 │   │   ├── 02_arrays_pointers/     # 配列とポインタ
 │   │   ├── 03_structures_unions/   # 構造体と共用体
 │   │   └── 04_file_operations/     # ファイル操作
+│   ├── electronics（電子回路）/    # 電子回路スタディノート
+│   │   ├── 01_electrical_theory/            # 電気理論
+│   │   ├── 02_digital_circuits/             # デジタル回路
+│   │   ├── 03_microcontroller_fundamentals/ # マイコンのしくみ
+│   │   └── 04_assembler/                    # アセンブラ
 │   ├── digital-circuit/
 │   └── assembler/
 ├── 02_microcontroller/             # GPIO / センサー / PWM / ADC / 割り込み
@@ -22,6 +27,8 @@ polytech/
 ```
 
 各フォルダ内の番号順に進めてください。サンプルはすべて単独でコンパイルできます。まず実行し、次に変数や条件を少し変えて結果を比べる学び方がおすすめです。
+
+電子回路の基礎（電気理論・デジタル回路・マイコンのしくみ・アセンブラ）は [電子回路スタディノート](01_fundamentals/electronics（電子回路）/README.md) にまとめています。
 
 個別ファイルを開かずに全ソースをまとめて転記したい場合は、[ALL_SAMPLES.md](ALL_SAMPLES.md) を使ってください。
 
@@ -58,7 +65,7 @@ sudo apt install build-essential
 ```sh
 mkdir -p build
 gcc -std=c11 -Wall -Wextra -Wpedantic \
-  01_fundamentals/c-language/01_control_functions/01_greeting_function.c \
+  01_fundamentals/c-language（C言語）/01_control_functions/01_greeting_function.c \
   -o build/greeting
 ./build/greeting
 ```

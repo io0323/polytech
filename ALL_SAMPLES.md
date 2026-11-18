@@ -2,7 +2,7 @@
 
 このファイルだけを開けば、全 18 本のサンプルを番号順に転記できます。各コードブロックは **別々の `.c` ファイル** として保存してコンパイルしてください。
 
-ソースの実体は [01_fundamentals/c-language/](01_fundamentals/c-language/) にあります。
+ソースの実体は [01_fundamentals/c-language（C言語）/](01_fundamentals/c-language（C言語）/) にあります。
 
 ## 01. 制御文・関数
 
