@@ -1,0 +1,4 @@
+build/
+*.o
+practice_notes*.txt
+.DS_Store
