@@ -36,7 +36,14 @@ polytech/
 │   ├── linux-basics/
 │   ├── raspberry-pi/
 │   └── embedded-programming/
-├── 04_application/                 # モニタリング
+├── 04_application/
+│   ├── android（Androidアプリ）/    # Android アプリ スタディノート
+│   │   ├── 01_user_interface/            # ユーザインタフェース
+│   │   ├── 02_event_handling/            # イベント処理
+│   │   ├── 03_intents/                   # インテント
+│   │   ├── 04_ble_device_control/        # BLE アプリによるデバイス制御
+│   │   └── 05_app_development_exercise/  # アプリ開発演習
+│   └── monitoring/
 └── tests/
 ```
 
@@ -45,6 +52,8 @@ polytech/
 電子回路の基礎（電気理論・デジタル回路・マイコンのしくみ・アセンブラ）は [電子回路スタディノート](01_fundamentals/electronics（電子回路）/README.md) にまとめています。
 
 Java の基本構文・オブジェクト指向・スレッド・テスト技法は [Java 言語プログラミング スタディノート](01_fundamentals/java（Java言語）/README.md) にまとめています。
+
+Android の UI・イベント処理・インテント・BLE によるデバイス制御・開発演習は [Android アプリ スタディノート](04_application/android（Androidアプリ）/README.md) にまとめています。
 
 ネットワーク・LAN 構築・Linux・組込み Linux・Raspberry Pi は [Linux・ネットワーク スタディノート](03_embedded-linux/linux-network（Linux・ネットワーク）/README.md) にまとめています。
 
