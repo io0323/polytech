@@ -18,6 +18,11 @@ polytech/
 │   │   ├── 02_digital_circuits/             # デジタル回路
 │   │   ├── 03_microcontroller_fundamentals/ # マイコンのしくみ
 │   │   └── 04_assembler/                    # アセンブラ
+│   ├── java（Java言語）/           # Java 言語プログラミング スタディノート
+│   │   ├── 01_basic_syntax/        # 基本構文
+│   │   ├── 02_object_oriented/     # オブジェクト指向プログラミング
+│   │   ├── 03_threads/             # スレッド
+│   │   └── 04_testing/             # テスト技法
 │   ├── digital-circuit/
 │   └── assembler/
 ├── 02_microcontroller/             # GPIO / センサー / PWM / ADC / 割り込み
@@ -38,6 +43,8 @@ polytech/
 各フォルダ内の番号順に進めてください。サンプルはすべて単独でコンパイルできます。まず実行し、次に変数や条件を少し変えて結果を比べる学び方がおすすめです。
 
 電子回路の基礎（電気理論・デジタル回路・マイコンのしくみ・アセンブラ）は [電子回路スタディノート](01_fundamentals/electronics（電子回路）/README.md) にまとめています。
+
+Java の基本構文・オブジェクト指向・スレッド・テスト技法は [Java 言語プログラミング スタディノート](01_fundamentals/java（Java言語）/README.md) にまとめています。
 
 ネットワーク・LAN 構築・Linux・組込み Linux・Raspberry Pi は [Linux・ネットワーク スタディノート](03_embedded-linux/linux-network（Linux・ネットワーク）/README.md) にまとめています。
 
