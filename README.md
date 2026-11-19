@@ -21,7 +21,16 @@ polytech/
 │   ├── digital-circuit/
 │   └── assembler/
 ├── 02_microcontroller/             # GPIO / センサー / PWM / ADC / 割り込み
-├── 03_embedded-linux/              # Linux 基礎 / Raspberry Pi / 組込みプログラミング
+├── 03_embedded-linux/
+│   ├── linux-network（Linux・ネットワーク）/  # Linux・ネットワーク スタディノート
+│   │   ├── 01_network_technology/          # ネットワーク技術
+│   │   ├── 02_lan_setup/                   # LAN 構築
+│   │   ├── 03_linux_overview_commands/     # Linux の概要とコマンド
+│   │   ├── 04_embedded_linux_programming/  # 組込み Linux プログラム
+│   │   └── 05_raspberry_pi/                # Raspberry Pi
+│   ├── linux-basics/
+│   ├── raspberry-pi/
+│   └── embedded-programming/
 ├── 04_application/                 # モニタリング
 └── tests/
 ```
@@ -29,6 +38,8 @@ polytech/
 各フォルダ内の番号順に進めてください。サンプルはすべて単独でコンパイルできます。まず実行し、次に変数や条件を少し変えて結果を比べる学び方がおすすめです。
 
 電子回路の基礎（電気理論・デジタル回路・マイコンのしくみ・アセンブラ）は [電子回路スタディノート](01_fundamentals/electronics（電子回路）/README.md) にまとめています。
+
+ネットワーク・LAN 構築・Linux・組込み Linux・Raspberry Pi は [Linux・ネットワーク スタディノート](03_embedded-linux/linux-network（Linux・ネットワーク）/README.md) にまとめています。
 
 個別ファイルを開かずに全ソースをまとめて転記したい場合は、[ALL_SAMPLES.md](ALL_SAMPLES.md) を使ってください。
 
